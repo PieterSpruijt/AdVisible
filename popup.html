@@ -102,7 +102,11 @@
     </div>
 
     <div class="status active">
-        ✅ Extension is active on Google Search
+        <label style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+            <span style="font-size: 14px;">Enable</span>
+            <input type="checkbox" id="advisible-toggle" style="width: 40px; height: 20px;" />
+        </label>
+        <div id="advisible-status-text" style="margin-top: 8px;">✅ Extension is active on Google Search</div>
     </div>
 
     <ul class="feature-list">
@@ -133,5 +137,7 @@
         AdVisible v1.0<br>
         <small>Making the web more transparent</small>
     </div>
+
+    <script src="popup.js"></script>
 </body>
 </html>
