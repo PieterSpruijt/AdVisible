@@ -4,7 +4,7 @@
 (function() {
     'use strict';
 
-    // Check if extension is enabled
+    // Check if extension is enabled (default ON)
     if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.sync) {
         chrome.storage.sync.get(['advisibleEnabled'], function (result) {
             if (result.advisibleEnabled === false) {

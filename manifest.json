@@ -3,7 +3,7 @@
   "name": "AdVisible",
   "version": "1.0",
   "description": "Make Google search ads more visible with yellow background highlighting",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "storage"],
   "content_scripts": [
     {
       "matches": ["*://www.google.com/search*", "*://google.com/search*"],
