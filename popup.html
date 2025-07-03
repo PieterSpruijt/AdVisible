@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            color: #ffc107;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .status {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .status.active {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .feature-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+
+        .feature-icon {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .feature-text {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .instructions {
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            padding: 12px;
+            margin-top: 15px;
+            font-size: 13px;
+            color: #495057;
+        }
+
+        .version {
+            text-align: center;
+            font-size: 11px;
+            color: #999;
+            margin-top: 15px;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">📢</div>
+        <h1 class="title">AdVisible</h1>
+        <div class="subtitle">Make Google ads visible again</div>
+    </div>
+
+    <div class="status active">
+        ✅ Extension is active on Google Search
+    </div>
+
+    <ul class="feature-list">
+        <li>
+            <span class="feature-icon">🟡</span>
+            <span class="feature-text">Yellow background for ads</span>
+        </li>
+        <li>
+            <span class="feature-icon">🏷️</span>
+            <span class="feature-text">Enhanced "ADVERTISEMENT" labels</span>
+        </li>
+        <li>
+            <span class="feature-icon">🛍️</span>
+            <span class="feature-text">Shopping ads highlighting</span>
+        </li>
+        <li>
+            <span class="feature-icon">🔍</span>
+            <span class="feature-text">Auto-detection of new ads</span>
+        </li>
+    </ul>
+
+    <div class="instructions">
+        <strong>How it works:</strong><br>
+        Simply search on Google and ads will be automatically highlighted with a yellow background and clear "ADVERTISEMENT" labels. No configuration needed!
+    </div>
+
+    <div class="version">
+        AdVisible v1.0<br>
+        <small>Making the web more transparent</small>
+    </div>
+</body>
+</html>
